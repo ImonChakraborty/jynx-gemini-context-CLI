@@ -45,7 +45,7 @@ This is a command-line tool for generating text using generative AI. It leverage
 2. Paste this on $PROFILE:
 
      ```bash
-     function jynx {python.exe "D:\programming\Python\jynx_cmd.py" $args}
+     function jynx {python.exe "D:\programming\Python\TextGenAi.py" $args}
 
 3. Save the powershell profile config and now you can use it on terminal itself:
       ![image](https://github.com/ImonChakraborty/TextGenAI-on-CLI-with-gemini/assets/135951651/b8f43461-a6a5-46cd-bb71-848ae052435e)
@@ -67,7 +67,7 @@ This is a command-line tool for generating text using generative AI. It leverage
 4. Write:
 
       ```bash
-      alias jynx=python Documents/jynx_cmd.py
+      alias jynx=python Documents/TextGenAi.py
 
 5. Save & exit, now you can use it natively like this:
     ![image](https://github.com/ImonChakraborty/TextGenAI-on-CLI-with-gemini/assets/135951651/527ed327-efff-4862-9c86-45aad2412662)
