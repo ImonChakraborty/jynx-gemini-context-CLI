@@ -52,7 +52,7 @@ This is a command-line tool for generating text using generative AI. It leverage
 
 ## To access it from Linux terminal
 
-1. Open terminal / Konsole / Kitty / Sway / whatever you use
+1. Open terminal / Konsole / Kitty / Alacritty / whatever you use
 
 2. If you use bash:
 
