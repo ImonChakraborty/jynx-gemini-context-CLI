@@ -1,12 +1,12 @@
 # TextGenAI-on-CLI-with-gemini (Jynx)
 
-This is a command-line tool for generating text using generative AI. It leverages the power of Gemini 1.5 pro, a versatile language model trained by Google, to create natural language text. It uses a JSON file to keep track of the last 5 prompts and responses using a simple FIFO (First In First Out) technique, specifically a queue data structure to keep track of context while keeping the valuable token limit under control while conversing.
+This is a command-line tool for generating text using generative AI. It leverages the power of Gemini 1.5 pro, a versatile language model trained by Google, to create natural language text. It uses a JSON file to keep track of the last 50 prompts and responses using a simple FIFO (First In First Out) technique, specifically a queue data structure to keep track of context while keeping the valuable token limit under control while conversing.
 
 ## Features
 
 - **Text Generation**: Generate creative and coherent text based on prompts.
 - **Usage of chat history**: Implementation of soft training data using chat history.
-- **Context Awareness of last 5 conversations**: Adjust parameters like temperature and max length for varied output.
+- **Context Awareness of last 50 conversations**: Adjust parameters like temperature and max length for varied output.
 - **CLI Interface**: Easy-to-use command-line interface for quick and dynamic text generation with animation.
 
 ## Installation
