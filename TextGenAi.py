@@ -137,15 +137,17 @@ chat_session = model.start_chat(history=[
 
 try:
     prompt = sys.argv[1:]
+    prompt = str(prompt)+", in short and point wise if possible"
     response = chat_session.send_message(prompt)
 
+    add_to_history(prompt, response.text)
+    prompt_history, response_history = load_history()
+    
     for char in response.text:
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(0.04)
     print()
-    add_to_history(prompt, response.text)
-    prompt_history, response_history = load_history()
 
 except Exception:
     print("Enter your prompt after prefix jynx!!!")
