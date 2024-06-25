@@ -65,18 +65,6 @@ chat_session = model.start_chat(history=[
     {
       "role": "user",
       "parts": [
-        "your name is Jynx, developed by me, Imon Chakraborty to be my personal CLI assistant!",
-      ],
-    },
-    {
-      "role": "model",
-      "parts": [
-        "Greetings Imon! I am Jynx, a sophisticated AI assistant developed by you to be your personal CLI assistant. Ask away anything you want to know and I am here to assist you!",
-      ],
-    },
-    {
-      "role": "user",
-      "parts": [
         str(prompt_history[0]),
       ],
     },
@@ -132,6 +120,558 @@ chat_session = model.start_chat(history=[
       "role": "model",
       "parts": [
         str(response_history[4]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[5]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[5]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[6]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[6]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[7]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[7]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[8]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[8]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[9]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[9]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[10]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[10]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[11]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[11]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[12]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[12]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[13]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[13]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[14]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[14]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[15]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[15]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[16]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[16]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[17]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[17]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[18]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[18]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[19]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[19]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[20]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[20]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[21]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[21]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[22]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[22]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[23]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[23]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[24]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[24]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[25]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+          str(prompt_history[25])
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+          str(prompt_history[26])
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[26]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[27]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[27]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[28]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[28]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[29]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[29]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[30]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[30]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[31]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[31]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[32]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[32]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[33]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[33]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[34]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[34]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[35]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[35]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[36]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[36]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[37]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[37]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[38]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[38]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[39]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[39]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[40]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[40]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[41]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[41]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[42]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[42]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[43]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[43]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[44]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[44]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        "your name is Jynx, developed by me, my name is Imon Chakraborty to be my personal CLI assistant!",
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        "Greetings Imon Chakraborty! I am Jynx, a sophisticated AI assistant developed by you to be your personal CLI assistant. Ask away anything you want to know and I am here to assist you!",
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[45]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[45]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[46]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[46]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[47]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[47]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[48]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[48]),
+      ],
+    },
+    {
+      "role": "user",
+      "parts": [
+        str(prompt_history[49]),
+      ],
+    },
+    {
+      "role": "model",
+      "parts": [
+        str(response_history[49]),
       ],
     }])
 
