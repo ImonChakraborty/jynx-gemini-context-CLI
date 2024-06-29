@@ -70,7 +70,7 @@ This is a command-line tool for generating text using generative AI. It leverage
 4. Write:
 
       ```bash
-      alias jynx=python Documents/TextGenAi.py
+      alias jynx="python Documents/TextGenAi.py"
 
 5. Save & exit, now you can use it natively like this:
     ![image](https://github.com/ImonChakraborty/TextGenAI-on-CLI-with-gemini/assets/135951651/527ed327-efff-4862-9c86-45aad2412662)
