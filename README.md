@@ -31,11 +31,11 @@ This is a command-line tool for generating text using generative AI. It leverage
 - **Copy your API key**: Paste Your API key. ![image](https://github.com/ImonChakraborty/TextGenAI-on-CLI-with-gemini/assets/135951651/8f55955d-3865-4845-bb8e-1bc5dd743605)
 - **Change the Location of the history JSON File**:
 
-  1.For Windows:-
+  1. For Windows:-
 
      ![image](https://github.com/ImonChakraborty/TextGenAI-on-CLI-with-gemini/assets/135951651/f77a55fa-4b59-4dd8-82b2-daea56392d30)
 
-  2.For Linux:-
+  2. For Linux:-
 
      ![Screenshot_29-Jun_13-46-46_10500](https://github.com/ImonChakraborty/jynx-gemini-context-CLI/assets/135951651/83030ed9-f8ba-4d3b-b4d3-1964bff55bbe)
 
