@@ -677,16 +677,17 @@ chat_session = model.start_chat(history=[
 
 try:
     prompt = sys.argv[1:]
-    prompt = str(prompt)+", in short and point wise if possible"
+    prompt = str(prompt)+", in short and point wise if possible and dont use bold letters"
     response = chat_session.send_message(prompt)
 
     add_to_history(prompt, response.text)
     prompt_history, response_history = load_history()
-    
+
+    print()
     for char in response.text:
-        sys.stdout.write(char)
+        sys.stdout.write("\033[93m"+char+"\033[0m")
         sys.stdout.flush()
-        time.sleep(0.04)
+        time.sleep(0.03)
     print()
 
 except Exception:
