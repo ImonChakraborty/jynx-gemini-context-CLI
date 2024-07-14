@@ -18,7 +18,7 @@ This is a command-line tool for generating text using generative AI. It leverage
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/ImonChakraborty/TextGenAI-on-CLI-with-gemini.git
+   git clone https://github.com/ImonChakraborty/jynx-gemini-context-CLI.git
 
 3. Install dependencies:
 
