@@ -1,7 +1,13 @@
 # TextGenAI-on-CLI-with-gemini (Jynx)
 
-![_f21c03eb-3920-44e5-b58f-59ba0e4a7a06](https://github.com/ImonChakraborty/jynx-gemini-context-CLI/assets/135951651/d8973ac2-c957-4a53-8510-92710588e5e9)
+```
+     ____.                     
+    |    |___.__. ____ ___  ___
+    |    <   |  |/    \\  \/  /
+/\__|    |\___  |   |  \>    < 
+\________|/_____|___|__/__/\__\
 
+```
 
 This is a command-line tool for generating text using generative AI. It leverages the power of Gemini 1.5 pro, a versatile language model trained by Google, to create natural language text. It uses a JSON file to keep track of the last 50 prompts and responses using a simple FIFO (First In First Out) technique, specifically a queue data structure to keep track of context while keeping the valuable token limit under control while conversing.
 
