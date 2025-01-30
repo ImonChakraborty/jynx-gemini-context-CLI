@@ -44,7 +44,7 @@ def load_history():
     try:
         with open(history_file, 'r') as file:
             data = json.load(file)
-            return deque(data['prompts'], maxlen = 5), deque(data['responses'], maxlen = 5)
+            return deque(data['prompts'], maxlen = 50), deque(data['responses'], maxlen = 50)
             file.close()
     except FileNotFoundError:
         return deque(maxlen=5), deque(maxlen=5)
